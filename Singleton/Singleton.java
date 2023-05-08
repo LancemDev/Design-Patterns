@@ -7,6 +7,7 @@ public class Singleton{
     }
     public static Singleton getInstance(){
         if(instance == null){
+            //This is the only instance that is created in the entire program
             instance = new Singleton();
         }
         return instance;
